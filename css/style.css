@@ -55,8 +55,8 @@ section {
 .btn {
     display: inline-block;
     padding: .9rem 1.5rem;
-    border: var(--border);
-    border-radius: var(--border-radius);
+    border: black 2px solid; 
+    border-radius: 10px;
     color: var(--main-color);
     background: none;
     cursor: pointer;
@@ -65,7 +65,8 @@ section {
 }
 
 .btn:hover {
-    border-radius: var(--border-radius-hover);
+    background-color: rgb(52, 5, 5);
+    color: white;
     border: var(--border-hover);
 }
 
