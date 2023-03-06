@@ -148,11 +148,11 @@ section {
 
     0%,
     100% {
-        transform: translateY(0rem);
+        transform: translateY(0rem) scale(1.2);
     }
 
     50% {
-        transform: translateY(-7rem);
+        transform: translateY(-7rem) ;
     }
 }
 
